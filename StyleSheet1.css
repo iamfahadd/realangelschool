@@ -1,0 +1,147 @@
+﻿
+.background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+    .background::after {
+        content: "";
+        background: url("school.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.3;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+/*Head*/
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center;
+    width: 100%;
+    height: 200px;
+    background-color: #221f1f;
+}
+
+#logo1 {
+    
+    margin-left:20%;
+    height: 100px;
+}
+
+#name {
+    position:relative;
+    left:100px;
+    margin-left: 10%;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+}
+
+
+.navbar {
+    border:0 !important;
+    background-color: #221f1f;
+    margin-left: 10%;
+}
+
+.container-fluid ul {
+    display: flex;
+    flex-direction: row
+}
+
+/*Home*/
+.d-block{
+
+height:500px !important;
+}
+
+
+/*About*/
+.intro {
+    margin-top: 70px;
+    font-size: 40px;
+    color: #0a99ed;
+    font-family: 'Lora', serif;
+}
+
+.detail {
+    width:60%;
+    color:whitesmoke;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    list-style:none;
+}
+
+/*Contact*/
+
+
+#map{
+    margin-top:50px;
+}
+
+/*foot*/
+#end {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #221f1f;
+    height: 350px;
+    margin-top: 150px;
+}
+
+#contact {
+    margin-left: 20%;
+    width: 30%;
+}
+
+.rabta {
+    color: whitesmoke;
+}
+
+.link {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Palatino Linotype';
+    margin-top: 70px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 3%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.4;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: #3B5998;
+    color: white;
+}
+
+
+#social {
+    width: 60%;
+    margin-left: 10%;
+}
